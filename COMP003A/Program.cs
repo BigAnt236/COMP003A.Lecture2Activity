@@ -123,7 +123,49 @@ namespace COMP003A
             Console.WriteLine($"Your age is {inputAge}");
 
             Console.WriteLine("*************************************");
+            /*
+             * math operations
+             * addition: +
+             * subtraction: -
+             * multiplication *
+             * division: /
+             * modulo: % (remainder)
+             */
+            int addition = 2 + 3;
+            int subtraction = 5 - 2;
+            int multiplication = 22 * 2;
+            int division = 21 / 7;
+            int modulo = 77 % 5;
+            Console.WriteLine($"Value of addition: {addition}");
+            Console.WriteLine($"Value of subtraction: {subtraction}");
+            Console.WriteLine($"Value of multiplication: {multiplication}");
+            Console.WriteLine($"Value of division: {division}");
+            Console.WriteLine($"Value of modulo: {modulo}");
+
+            /*
+             * arithmetic, compound expressions and order of operations
+             * Multiplication and division are done first, left to right
+             * Addition and subtraction are done last, left to right
+             * Reference:  https://csharpplayersguide.com/articles/operators-table
+             */
+
+            int arithmetic1; // declaring the variable arithmetic1.
+            arithmetic1 = 9 - 2; // assigning a value to arithmetic1, using some math.
+            Console.WriteLine($"Value of arithmetic: {arithmetic1}");
+            arithmetic1 = 3 + 3; // another assignment.
+            Console.WriteLine($"New value of arithmetic1: {arithmetic1}");
+            int arithmetic2 = 3 + 1; // declaring arithmetic2 and assigning a value to arithmetic2 all at once.
+            Console.WriteLine($"Value of arithmetic2 : {arithmetic2}");
+            arithmetic2 = 1 + 2; // assigning a second value to arithmetic2.
+            Console.WriteLine($"New value of arithmetic2: {arithmetic2}");
+
+            // use multiple sets of parentheses to group operations 
+            int result = ((2 + 1) * 8 - (3 * 2) * 2) / 4;
+            Console.WriteLine($"Value of result: {result}");
+
+            /* compound assignment operator */
             
+
 
         }
     }
