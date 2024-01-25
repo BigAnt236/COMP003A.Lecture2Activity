@@ -27,13 +27,26 @@ namespace COMP003A
 
             /* working with variable integers */
             int score; // declare a new variable with a data type int
-            // score - "Generic User"; // will fail to compile because the "O" is still assigned as a string - enclosed in the double quotes
+            // score - "Generic User"; // will fail to compile because the "O" is still
+            // assigned as a string - enclosed in the double quotes
             score = 0; // works
             score = 4; // you can also reassign values to the variable as long as they are within scope and not constant
             score = 11;
             score = -1564;
 
-            // test
+            /* reading from a variable does not change it */
+            int a;
+            int b;
+
+            a = 5;
+            b = 2;
+            Console.WriteLine("The current value of a: " + a);
+            Console.WriteLine("The current value of b: " + b);
+
+            b = a;
+            a = -3;
+            Console.WriteLine("The new value of a: " + a);
+            Console.WriteLine("The new value of b: " + b);
         }
     }
 }
