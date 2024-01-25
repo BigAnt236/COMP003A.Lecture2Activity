@@ -60,6 +60,15 @@ namespace COMP003A
              * there are eight integer types for storing integers of differing sizes and 
              * ranges: int, short, long, byte, sbyte, ushort, and ulong.
              * the char type stores single characters.
+             * the string type stores longer text.
+             * there are three types for storing real numbers: float, double, and decimal.
+             * the bool type stores truth values (true and false) used in logic.
+             * these types are the building blocks of a much larger type system.
+             * using var for a variable's type tells the compiler to infer its type from the surrounding code, so you do not have to type it out. (But it still has a specific type.)
+             * the System.Convert class is a useful class to convert from one type to another.
+             */
+
+            
 
         }
     }
