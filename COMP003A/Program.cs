@@ -184,8 +184,11 @@ namespace COMP003A
             Console.WriteLine("Press any key when you're ready to begin.");
             Console.ReadKey(); // reads a keystroke
 
-            Console.BackroundColor = 
+            Console.BackroundColor = Console.Color.Yellow; // changes the console backround to yellow
+            Console.ForegroundColor = ConsoleColor.Black; // changes the console text to black
+            Console.Title = "Hello World!"; // changes the console title
 
+            Console.Beep(440, 100); // computer beeps
         }
     }
 }
