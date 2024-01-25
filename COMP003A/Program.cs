@@ -86,7 +86,44 @@ namespace COMP003A
 
             int anInteger = 2147483647;
 
+            /* declaring,using, and concatnating characters ans strings */
+            char aLetter = 'A'; // character values are enclosed in single quotes
+            string message = "Hello World!"; // string values are enclosed in double quotes
 
+            Console.WriteLine(" Concatenation using + : " + aLetter + " " + message); // use the plus (+) sign in between characters/strings to concatenate
+            Console.WriteLine($"Concatenation using string interpolation : {aLetter}{message} ");
+            // use string interpolation with a dollar-sign ($) before the opening double-quote and enclosing variables with curly braces ({variableName})
+
+            /* floating-point types */
+            double number1 = 3.5623;
+            float number2 = 3.5623f;
+            decimal number3 = 3.5623m;
+            Console.WriteLine($"Value of number1: {number1}");
+            Console.WriteLine($"Value of number1: {number2}");
+            Console.WriteLine($"Value of number1: {number3}");
+
+            /* scientific notation*/
+            double avogadrosNumber = 6.022e23;
+            Console.WriteLine($"Value of avogadrosNumber: {avogadrosNumber}");
+
+            /* bool type */
+            bool itWorked = true;
+            Console.WriteLine($"Value of itWorked: {itWorked}");
+            itWorked = false;
+            Console.WriteLine($"New value of itWorked: {itWorked}");
+
+            /* convert */
+            string inputAgeString;
+            int inputAge;
+            int currentYear = 2023;
+
+            Console.WriteLine($"Enter age in {currentYear}: ");
+            inputAgeString = Console.ReadLine();
+            inputAge = Convert.ToInt32(inputAgeString);
+            Console.WriteLine($"Your age is {inputAge}");
+
+            Console.WriteLine("*************************************");
+            
 
         }
     }
