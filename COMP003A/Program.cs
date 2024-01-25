@@ -75,6 +75,18 @@ namespace COMP003A
             Console.WriteLine("aSingleByte: " + aSingleByte);
 
             short aNumber = 5039;
+            Console.WriteLine("aNumber: " + aNumber);
+            aNumber = -4354;
+            Console.WriteLine("aNumber: " + aNumber);
+
+            long aVeryBigNumber = 395904282569;
+            Console.WriteLine("aVeryBigNumber: " + aVeryBigNumber);
+            aVeryBigNumber = 13;
+            Console.WriteLine("aVeryBigNumber: " + aVeryBigNumber);
+
+            int anInteger = 2147483647;
+
+
 
         }
     }
