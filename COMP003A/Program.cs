@@ -68,7 +68,13 @@ namespace COMP003A
              * the System.Convert class is a useful class to convert from one type to another.
              */
 
-            
+            /* declaring and using variables with integer types */
+            byte aSingleByte = 34;
+            Console.WriteLine("aSingleByte: " + aSingleByte);
+            aSingleByte = 17;
+            Console.WriteLine("aSingleByte: " + aSingleByte);
+
+            short aNumber = 5039;
 
         }
     }
