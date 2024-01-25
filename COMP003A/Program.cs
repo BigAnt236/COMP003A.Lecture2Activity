@@ -164,8 +164,27 @@ namespace COMP003A
             Console.WriteLine($"Value of result: {result}");
 
             /* compound assignment operator */
-            
+            int coumpoundAssignmentOperator = 0;
+            compoundAssignmentOperator += 5; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator + 5 5; (a is 5 after this line runs.)
+            compoundAssignmentOperator - +2; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator - 2; (a is 3 after this line runs.)
+            compoundAssignmentOperator *= 4; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator * 4; (a is 12 after this line runs.)
+            compoundAssignmentOperator /= 2; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator / 2; (a is 6 after this line runs.)
+            compoundAssignmentOperator %= 2; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator % 2; (a is 0 after this line runs.)
+            /* increment and decrement operators */
+            int incrementDecrementOperators = 0;
+            incrementDecrementOperators++; // The equivalent of incrementDecrementOperators += 1; or incrementDecrementOperators = incrementDecrementOperators + 1;
+            incrementDecrementOperators--; // The equivalent of incrementDecrementOperators -= 1; or incrementDecrementOperators = incrementDecrementOperators - 1;
 
+            Console.WriteLine("********************************************");
+            /* console 2.0 */
+            Console.WriteLine("What is your name, human? "); // notice the space at the end.
+            string userName = Console.ReadLine(); // reads the entire line
+            // result: What is your name, human? johnathan
+
+            Console.WriteLine("Press any key when you're ready to begin.");
+            Console.ReadKey(); // reads a keystroke
+
+            Console.BackroundColor = 
 
         }
     }
