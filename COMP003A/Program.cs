@@ -188,7 +188,7 @@ namespace COMP003A
             Console.ForegroundColor = ConsoleColor.Black; // changes the console text to black
             Console.Title = "Hello World!"; // changes the console title
 
-            Console.Beep(440, 100); // computer beeps
+            Console.Beep(440, 1000); // computer beeps
         }
     }
 }
