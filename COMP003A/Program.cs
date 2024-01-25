@@ -47,6 +47,20 @@ namespace COMP003A
             a = -3;
             Console.WriteLine("The new value of a: " + a);
             Console.WriteLine("The new value of b: " + b);
+
+            /* variables are case-sensitive */
+            // the variables below are different despite having similar names
+            string exampleVariable;
+            string exampleVAriable;
+            string exampleVARiable;
+
+            Console.WriteLine("********************************");
+            /* 
+             * types of variables and values matter in C#. they are not interchangeable.
+             * there are eight integer types for storing integers of differing sizes and 
+             * ranges: int, short, long, byte, sbyte, ushort, and ulong.
+             * the char type stores single characters.
+
         }
     }
 }
