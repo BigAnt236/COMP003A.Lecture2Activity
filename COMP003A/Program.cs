@@ -164,9 +164,9 @@ namespace COMP003A
             Console.WriteLine($"Value of result: {result}");
 
             /* compound assignment operator */
-            int coumpoundAssignmentOperator = 0;
+            int compoundAssignmentOperator = 0;
             compoundAssignmentOperator += 5; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator + 5 5; (a is 5 after this line runs.)
-            compoundAssignmentOperator - +2; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator - 2; (a is 3 after this line runs.)
+            compoundAssignmentOperator -= 2; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator - 2; (a is 3 after this line runs.)
             compoundAssignmentOperator *= 4; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator * 4; (a is 12 after this line runs.)
             compoundAssignmentOperator /= 2; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator / 2; (a is 6 after this line runs.)
             compoundAssignmentOperator %= 2; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator % 2; (a is 0 after this line runs.)
@@ -184,11 +184,11 @@ namespace COMP003A
             Console.WriteLine("Press any key when you're ready to begin.");
             Console.ReadKey(); // reads a keystroke
 
-            Console.BackroundColor = Console.Color.Yellow; // changes the console backround to yellow
+            Console.BackgroundColor = ConsoleColor.Yellow; // changes the console background to yellow
             Console.ForegroundColor = ConsoleColor.Black; // changes the console text to black
             Console.Title = "Hello World!"; // changes the console title
 
-            Console.Beep(440, 1000); // computer beepss
+            Console.Beep(440, 1000); // computer beeps
         }
     }
 }
